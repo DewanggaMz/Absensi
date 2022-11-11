@@ -46,7 +46,7 @@ const Setting = () => {
 				<div className="h-max w-full bg-blue-second rounded-md p-4">
 					<div>
 						<header className="flex justify-between border-b-2 pb-1 mb-7">
-							<h1 className="text-xl">Edit Profile</h1>
+							<h1 className="text-xl">Setting</h1>
 							<h3 className="text-lg">nip: {localStorage.getItem("nip")}</h3>
 						</header>
 						<div>
@@ -78,7 +78,7 @@ const Setting = () => {
 									className="bg-slate-100 text-dark-blue font-medium text-lg"
 									onChange={(event) => setPasswordBaru(event.target.value)}
 								/>
-								<Button type="submit">Ubah Data</Button>
+								<Button type="submit">Update Data</Button>
 							</form>
 							<Button className="mt-4 bg-red-600 text-white" onClick={() => logout()}>
 								Logout
